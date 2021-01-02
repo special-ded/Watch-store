@@ -606,3 +606,50 @@
     z-index: 1;
     display: block;
 }
+.our_brands{
+    position: absolute;
+    width: 1920px;
+    height: 362px;
+    left: 0px;
+    top: 3553px;
+    background: #0F0F0F;
+}
+.our_brands-title{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 289px;
+    height: 48px;
+    left: 816px;
+    top: 3613px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.our_brands-title-line{
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.brand_logo-container{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+.brand_logo{
+    margin-left: 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
