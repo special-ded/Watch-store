@@ -2,7 +2,7 @@
     box-sizing: border-box;
     max-width: 99vw;
 }
-bimba
+
 .top_line{
     position: absolute;
     width: 1920px;
@@ -550,4 +550,18 @@ bimba
     left: 0px;
     top: 2264px;
     background-color: black;
+}
+.new_goods-title{
+/* position: absolute; */
+width: 440px;
+height: 48px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0 auto;
 }
