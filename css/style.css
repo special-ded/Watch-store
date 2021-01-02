@@ -643,13 +643,13 @@
 }
 .brand_logo-container{
     position: relative;
-    display: block;
-    margin: 0 auto;
-    
+    display:inline-flex;
+    width: 1920px;
+    height: 180px;
     
 }
 .brand_logo{
-    margin-left: 50px;
-    display: inline-block;
     margin: 0 auto;
+    
+
 }
