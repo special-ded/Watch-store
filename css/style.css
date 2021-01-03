@@ -659,14 +659,201 @@
 }
 .brand_logo-container{
     position: relative;
-    display:inline-flex;
+    display:flex;
     width: 1920px;
     height: 180px; 
     
-    padding-left: 200px;
-    padding-right: 200px;
-    
+    padding-left: 20%;
+    padding-right: 20%; 
+    align-items: center;
 }
 .brand_logo{
+    
+    margin-bottom: 80px;
+    display: inline-block;
+}
+.footer-background-img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: -55;
+}
+.footer{
+    position: absolute;
+    width: 1920px;
+    height: 400px;
+    left: 0px;
+    top: 3909px;
+    display: flex;
+    
+    background-image: url(../images/footer-background.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_shop{
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 400px;
+    margin-left: 15%;
+}
+.about_shop-title{
+    width: 151px;
+    height: 32px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: auto;
+}
+.about_shop-explanation-text{
+    width: 350px;
+    height: 147px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
     margin: 0 auto;
 }
+.categories{
+    display: inline-block;
+    height: 400px;
+    width: 275px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.watch_btn{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    background: #0F0F0F;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+.watch_btn-text{ 
+    text-decoration: none; 
+}
+.subscription{
+    height: 400px;
+    width: 355px;
+    display: inline-block;
+    position: relative;
+    margin-right: 14%;
+}
+.subscription-title{
+    width: 131px;
+    height: 32px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 80px;
+    
+}
+.subscription-explanation-text{
+    width: 350px;
+    height: 42px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 37px;
+}
+.subscription__form-input{
+    width: 210px;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4); 
+    border: none;
+    margin-right: 0;
+}
+
+.subscription__form-input::-webkit-input-placeholder {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #969696;
+    padding-left: 15px;
+}
+.footer__form-btn{
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    width: 140px;
+    height: 41px;
+    background: #0F0F0F;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-left: 0;
+}
+.last_line-container{
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    left: 0px;
+    top: 4307px;
+    background: #0F0F0F;
+}
+.all-rights{
+    position: relative;
+    width: 155px;
+    height: 16px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+    display: inline-block;
+    margin-left: 15%;
+}
+.figma_info{
+    position: relative;
+    width: 155px;
+    height: 16px;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+    margin-right: 14%;
+    float: right;
+}
+
