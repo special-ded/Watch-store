@@ -10,82 +10,77 @@
 *{
     box-sizing: border-box;
     max-width: 99vw;
+    margin: 0;
+    padding: 0;
 }
 
 .top_line{
-    position: absolute;
-    margin-top: 0;
-    left: 0;
     width: 1920px;
     height: 44px;
-    left: 0px;
-    top: 0px;
-
-    display:inline-flex;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.top_line-menu{
     display: flex;
 }
 .top_line-menu-background{
-    margin-top: 0;
-    margin-left: 0;
-    /* position: absolute; */
     width: 100%;
     height: 44px;
-    /* left: 0px;
-    top: 0px; */
     background: #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* display: inline-block; */
+}
+.top_line-menu{
+    display: block;
+    width: 1100px;
+    height: 44px;
+    
+    margin: 0 auto;
+    
 }
 
-.top_line-menu-link-phone_number{
+
+.top_line-menu-item-phone{
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     color: #969696;
-    /* position: absolute; */
     width: 355px;
     height: 16px;
-    /* left: 436px;
-    top: 14px; */
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 10px;
+
 }
 .phone-icon{
-    /* position: absolute; */
     width: 16px;
     height: 16px;
-    /* left: 405px;
-    top: 14px; */
+    display: inline-block;
+}
+.top_line-menu-item-registration{
+    padding-top: 14px;
+    width: 107px;
+    height: 16px;
+    display: inline-block;
+    padding-left: 600px;
+    white-space: nowrap;
+    
 }
 .top_line-menu-link-registration{
+    text-decoration: none;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
-    /* text-align: right; */
     color: #969696;
-    position: relative;
-    /* position: absolute; */
-    width: 107px;
-    height: 16px;
-    /* left: 1408px;
-    top: 14px; */
-    text-decoration: none;
-    margin-left: 1010px;
-    white-space: nowrap;
-    display: inline-block;
+    
 }
 .log-in-icon{
-    position: absolute;
+    display: inline-block;
     width: 14px;
     height: 14px;
-    left: 1384px;
-    top: 15px;
+    
 }
 .menu_list-background{
     position: absolute;
