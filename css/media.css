@@ -17,11 +17,15 @@
     .menu__list-item1 { 
         margin-right: 254px;
 }
+
 }
 
 @media(max-width:914px){
     .top_line-menu-item-registration{
         padding-left: 300px;
+}
+.container_first_screen{
+    min-height: 600px;
 }
 .menu__list-item1 { 
     margin-right: 154px;

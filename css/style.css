@@ -213,90 +213,29 @@
     height: 22px;
     margin-left: 30px;
 }
-.Main-background-img{
-    position: absolute;
-    width: 1920px;
-    height: 810px;
-    left: 0px;
-    top: 124px;
-    z-index: -5;
-    
+
+.container_first_screen{
+    background-image: url(../images/Main-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 810px;
+    display: block;
 }
-.Main-background-img-filter{
-    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5));
-    z-index: -4;
-    position: absolute;
-    width: 1920px;
-    height: 810px;
-    left: 0px;
-    top: 124px;
-}
+
+
 .logo{
-    position: absolute;
-    width: 320px;
-    height: 320px;
-    left: 650px;
-    top: 284px;
-    display: inline-block;
-}
-.logo_box{
-    position: absolute;
-    left: 650px;
-    top: 284px;
-    width: 320px;
-    height: 320px;
-    padding: 10px; 
-    border: 4px solid rgb(255, 255, 255); 
-   
-    box-sizing: border-box;
-}
-.top__logo-title{
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 93px;
-    margin-bottom: 0;
-    width: 185px;
-    height: 86px;
-    align-self: center;
-    font-family: 'Post No Bills Jaffna';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 96px;
-    text-align: center;
-    color: #FFFFFF;
-    
-    
-}
-.line{
-    align-self: center;
-    width: 179px;
-    margin-top: -5px;
-    margin-bottom: 6px;
-    border: 1px solid #ffffff;
-    margin-left: auto;
-    margin-right: auto;
-    background: #FFFFFF;
-}
-.bottom__logo{
-    margin-left: auto;
-    margin-right: auto;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+
+    padding-top: 160px;
     text-align: center;
 }
+
 .first_screen-explanation{
-    position: absolute;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: block;
     width: 730px;
     height: 96px;
-    left: 460px;
-    top: 684px;
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
