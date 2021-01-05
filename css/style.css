@@ -1,4 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@font-face { 
+     
+    src: url(../fonts/Post\ No\ Bills\ Jaffna\ Bold\ 700.ttf);   
+    
+         font-family: 'Post No Bills Jaffna';
+         font-style: normal;
+         font-weight: bold;
+  }
+
 *{
     box-sizing: border-box;
     max-width: 99vw;
