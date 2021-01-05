@@ -5,22 +5,38 @@
 .top_line-menu-item-phone{
     padding-left: 50px;
 }
+.menu__list-item1 {
+    margin-left: 45px;
+    margin-right: 354px;
 }
+
 @media(max-width:1000px){
     .top_line-menu-item-registration{
         padding-left: 400px;
 }
+    .menu__list-item1 { 
+        margin-right: 254px;
 }
+}
+
 @media(max-width:914px){
     .top_line-menu-item-registration{
         padding-left: 300px;
 }
+.menu__list-item1 { 
+    margin-right: 154px;
 }
+}
+
 @media(max-width:810px){
     .top_line-menu-item-registration{
         padding-left: 200px;
 }
+.menu__list-item1 { 
+    margin-right: 54px;
 }
+}
+
 @media(max-width:710px){
     .top_line-menu-item-phone{
         display: none;
