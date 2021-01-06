@@ -1,3 +1,8 @@
+@media(min-width:710px){
+    .menu__porten{
+        display: none;
+    }
+}
 @media(max-width:1110px){
     .top_line-menu-item-registration{
         padding-left: 500px;
@@ -55,8 +60,21 @@
 .top_line-menu-item-registration{
     padding-left: 50px;
 }
-.menu__list-item2,.menu__list-item3,.menu__list-item4{
+.menu__list-item1,.menu__list-item2,.menu__list-item3,.menu__list-item4{
     display: none;
+}
+.menu__btn{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 65px;
+}
+.menu{
+    display: inline-block;
+    align-items: baseline;
+}
+.header__inner{
+    width: 570px;
 }
 }
 

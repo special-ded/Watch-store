@@ -76,17 +76,60 @@
     width: 14px;
     height: 14px;
 }
-/* .menu__btn{
-    width: 30px;
+.menu__porten{
+    width: 104px;
+    height: 49px;
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    list-style: none;
+    list-style: none;
+    text-decoration: none;
+    text-align:center ;
+    margin-left: 50px;
+}
+.menu__btn{
+    width: 40px;
     height: 30px;
-    padding-right: 200px;
-    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    display: none;
+    position: relative;
+    float: right;
+    padding-right: 80px;
+    
 } 
 .menu__btn span{
-    width: 30px;
-    height: 10px;
-    color: cornsilk;
-} */
+    display: block;
+    height: 2px;
+    width: 40px;
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+.menu__btn::after,
+.menu__btn::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+}
+.menu__btn::after{
+    bottom: 0;
+    height: 2px; 
+}
+.menu__btn::before{
+    top: 0;
+    height: 2px; 
+}
 .container_header__inner{
     max-width: 1100px;
     height: 80px;
@@ -399,9 +442,8 @@
     background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5));
 }
 .new_collection-title{
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    display: block;
     margin-top: 65%;
     margin-left: 33%;
     margin-right: 33%;
@@ -417,24 +459,24 @@
     white-space: nowrap;
 }
 .new_collectin-title-line{
-    position: absolute;
-    left: 381px;
-    top: 553px;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
     width: 120px;
     height: 0px;
     border: 1px solid #FFFFFF;
     z-index: 100;
 }
 .catalog_btn{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+    
     padding: 12px 28px;
-    position: absolute;
+    position: relative; 
     width: 138px;
     height: 47px;
-    left: 371px;
-    top: 583px;
+    /* left: 371px;
+    top: 583px; */
     background-color: transparent;
     border: 1px solid #ffffff;
     color: #FFFFFF;
@@ -645,18 +687,17 @@
 }
 .brand_logo-container{
     position: relative;
-    display:flex;
-    width: 1920px;
+    display: block;
+    max-width: 1100px;
     height: 180px; 
     
-    padding-left: 20%;
-    padding-right: 20%; 
+    margin: 0 auto;
     align-items: center;
 }
 .brand_logo{
     
     margin-bottom: 80px;
-    display: inline-block;
+    display: inline-block; 
 }
 .footer-background-img{
     position: absolute;
