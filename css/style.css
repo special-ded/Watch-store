@@ -690,23 +690,22 @@ html {
     margin-bottom: 80px;
     display: inline-block; 
 }
-.footer-background-img{
-    position: absolute;
+.footer-img-filter{
+    position: relative;
     left: 0px;
     top: 0px;
-    width: 100vw;
+    width: 12%;
     height: 400px;
     overflow: hidden;
     object-fit: cover;
     z-index: -55;
+    display: inline-block;
 }
 .footer{
     /* position: absolute; */
     width: 100vw;
     height: 400px;
-    
     display: flex;
-    
     background-image: url(../images/footer-background.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -719,7 +718,7 @@ html {
     position: relative;
     width: 350px;
     height: 400px;
-    margin-left: 15%;
+    margin-left: 1%;
 }
 .about_shop-title{
     width: 151px;
@@ -841,8 +840,7 @@ html {
     /* position: absolute; */
     width: 100vw;
     height: 50px;
-    left: 0px;
-    top: 4307px;
+    
     background: #0F0F0F;
 }
 .all-rights{
@@ -857,6 +855,7 @@ html {
     color: #D0D0D0;
     display: inline-block;
     margin-left: 15%;
+    margin-top: 16px;
 }
 .figma_info{
     position: relative;
@@ -871,6 +870,7 @@ html {
     text-decoration-line: underline;
     color: #D0D0D0;
     margin-right: 14%;
+    margin-top: 16px;
     float: right;
 }
 
