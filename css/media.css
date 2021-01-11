@@ -14,7 +14,11 @@
     margin-left: 45px;
     margin-right: 354px;
 }
-
+@media(max-width:1050px){
+    .our_brands{
+        height: 450px;
+    }
+}
 @media(max-width:1000px){
     .top_line-menu-item-registration{
         padding-left: 400px;
@@ -22,6 +26,7 @@
     .menu__list-item1 { 
         margin-right: 254px;
 }
+
 
 }
 
@@ -92,6 +97,9 @@
     height: 400px;
     transform: translateY(-300%);
 }
+.menu__list.menu__list--active{
+    transform: translateY(0%);
+}
 .menu__list-item1,.menu__list-item2,.menu__list-item3{
     /* display: none; */
     font-family: "PT Sans", sans-serif;
@@ -134,7 +142,10 @@
     width: 570px;
 }
 }
-
+@media(max-width:525px){
+.our_brands{
+    height: 850px;
+}}
 @media(max-width:376px){
     .logo_img{
         max-width: 280px;

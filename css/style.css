@@ -9,20 +9,28 @@
 
 *{
     box-sizing: border-box;
-    max-width: 100vw;
+    
     margin: 0;
     padding: 0;
+    
+    
+}
+body,
+html {
+    background-color: #000000;
+    height: 100%;
+    
 }
 
 .top_line{
-    width: 1920px;
+    width: 100vw;
     height: 44px;
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
 .top_line-menu-background{
-    width: 100%;
+    width: 100vw;
     height: 44px;
     background: #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -30,7 +38,7 @@
 }
 .top_line-menu{
     display: block;
-    width: 1100px;
+    max-width: 1100px;
     height: 44px;
     margin: 0 auto;
 }
@@ -141,7 +149,7 @@
 }
 .menu_list-background{
     position: absolute; 
-    width: 1920px;
+    width: 100vw;
     height: 80px;
     left: 0px;
     top: 44px;
@@ -154,7 +162,7 @@
 .menu__list{
     list-style: none;
     display: flex;
-    width: 1100px;
+    max-width: 1100px;
 }
 .menu__list-item1 {
     margin-left: 4px;
@@ -301,9 +309,9 @@
     padding-right: 30px;
 }
 .second_screen{
-    width: 99%;
+    width: 100vw;
     height: 730px;
-    position: absolute;
+    /* position: absolute; */
     left: 0px;
     top: 934px;
     display: inline-block;
@@ -427,27 +435,20 @@
     
 } 
 .background-2-img{
-    position: absolute;
+    position: relative;
     top: 0;
-    left: -2px;
-    width: 102%;
+    
+    width: 100%;
     height: 730px;
 } 
-.background-2-img-filter{
-    z-index: 5;
-    position: absolute;
-    top: 0;
-    left: -2px;
-    width: 102%;
-    height: 100%;
-    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5));
-}
+
 .new_collection-title{
-    position: relative;
+    position: absolute;
     display: block;
-    margin-top: 65%;
-    margin-left: 33%;
-    margin-right: 33%;
+    left: 20%;
+    right: 20%;
+    top: 50%;
+    margin: 0 auto;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -496,32 +497,24 @@
 /*collection_2018*/
 
 .collection_2018-section{
-    position: absolute;
-    width: 1920px;
+    /* position: absolute; */
+    width: 100vw;
     height: 600px;
-    left: 0px;
-    top: 1664px;
+    
     display: block;
 }
 .collection_2018-container{
     position: relative;
     width: 45vw;
-    height: 880px;
+    /* height: 880px; */
     float:left;
     
 }
-.collection_2018-background-img-filter{
-    position: absolute;
-    width: 880px;
-    height: 600px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5));
-}
+
 .collection_2018-explanation{
     position: relative;
     width: 54vw;
-    height: 880px;
+    /* height: 880px; */
     float: left;
     display: flex;
 }
@@ -595,16 +588,15 @@
     text-decoration: none;
 }
 .new_goods-section{
-    position: absolute;
-    width: 1920px;
+    /* position: absolute; */
+    width: 100vw;
     height: 1289px;
-    left: 0px;
-    top: 2264px;
+    display: block;
     background-color: black;
 }
 .new_goods-title{
-    width: 440px;
-    height: 48px;
+    padding-top: 120px;
+    padding-bottom: 40px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -613,10 +605,9 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 120px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    display: block;
+    
 }
 .new_goods-title-line{
     width: 120px;
@@ -632,7 +623,7 @@
     left: 405px; */
     margin-left: auto;
     margin-right: auto;
-    width: 1106px;
+    max-width: 1106px;
     height: 850px;
     /* background-color: aqua; */
 }
@@ -652,11 +643,10 @@
     display: block;
 }
 .our_brands{
-    position: absolute;
-    width: 1920px;
+    position: relative;
+    width: 100vw;
     height: 362px;
-    left: 0px;
-    top: 3553px;
+    display: block;
     background: #0F0F0F;
 }
 .our_brands-title{
@@ -704,21 +694,20 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1920px;
+    width: 100vw;
     height: 400px;
     overflow: hidden;
     object-fit: cover;
     z-index: -55;
 }
 .footer{
-    position: absolute;
-    width: 1920px;
+    /* position: absolute; */
+    width: 100vw;
     height: 400px;
-    left: 0px;
-    top: 3909px;
+    
     display: flex;
     
-    background-image: url(../images/footer-background.svg);
+    background-image: url(../images/footer-background.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -849,8 +838,8 @@
     margin-left: 0;
 }
 .last_line-container{
-    position: absolute;
-    width: 1920px;
+    /* position: absolute; */
+    width: 100vw;
     height: 50px;
     left: 0px;
     top: 4307px;
