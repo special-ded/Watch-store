@@ -1,0 +1,769 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+.top_line{
+  display: flex;
+  background-color: #000;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #969696;
+  justify-content:center;
+height: 44px;
+align-items: center;
+}
+
+.top_line-internal{
+  width: 1110px;
+  display: flex;
+  background-color: #000;
+  justify-content:space-between;
+  /* align-items: baseline; */
+}
+.svg_phone{
+
+  margin-right: 5px;
+
+  width: 14px;
+height: 14px;
+ 
+}
+.second_line{
+  height: 80px;
+  display: flex;
+  font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #969696;
+background: #0F0F0F;
+  justify-content:center;
+}
+.second_line-inner{
+  background: #0F0F0F;
+  display: flex;
+  width: 1110px;
+ align-items:center;
+  justify-content: space-between;
+}
+.ul_list-item{
+  width: 136px;
+  height: 80px;
+  /* height: 20px; */
+  display: inline-block;
+  list-style: none;
+  /* padding: 20px 20px; */
+  padding-top: 30px;
+}
+.porten{
+  font-family: Post No Bills Jaffna;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+
+  color: #FFFFFF;
+}
+.svg_second-line{
+  margin-left: 20px;
+}
+.cart{
+  margin-right: 40px;
+  margin-left: 20px;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  list-style: none;
+}
+.search{
+  margin-left: 0px;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  list-style: none;
+}
+.ul_list-item:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.first_screen{
+/* position: relative; */
+  display: flex;
+ text-align: center;
+ justify-content:center;
+ background-image: url(img/main.jpg);
+
+  height: 810px; 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.first_screen-inner{
+ position: relative;
+  max-width: 1110px;
+ align-items:center;
+  justify-content: space-between;
+}
+
+.porten-2{
+  margin-top: 25%;
+  font-family: Post No Bills Jaffna;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 96px;
+text-align: center;
+color: #FFFFFF;
+}
+.main_logo{
+  vertical-align:baseline;
+  margin: 60px auto 0;
+  /* display: block; */
+  border: 4px solid rgb(255, 255, 255);
+  height: 320px;
+  width: 320px;
+  font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main_logo hr{
+  color: red;
+  border: 1px solid red;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.main_text{
+  max-width: 730px;
+height: 96px;
+
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  display: inline-block;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.new_season-container{
+  display: flex;
+  max-width: 1920px;
+  /* height: 730px; */
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+}
+.new_season{
+  flex-basis: 1040px;
+  height: 730px;
+  background-color:black;
+  /* display: flex; */
+  display: block;
+  width: 100%;
+}
+
+.new_season-hr{
+  width: 120px;
+  margin: 20px auto;
+  margin-bottom: 70px;
+}
+.new_season-text{
+  margin: 60px auto;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.watch-container{
+  display: flex;
+  justify-content: space-around;
+}
+.watch{
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+text-align: center;
+}
+.watch_inner{
+  display: flex;
+  background-image: url(img/watch.png);
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 325px;
+background-position: center;
+}
+
+.new_collection{
+  display: block;
+  background-image: url(img/New-collection.jpg);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+ flex-basis: 880px;
+ /* width: 100%; */
+ height: 730px;
+}
+.new_collection-text{
+  margin: 484px 0 auto;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.new_collection-hr{
+  width: 120px;
+  height: 1px;
+  margin: 20px auto;
+  margin-bottom: 30px;
+}
+.new_collection-button{
+margin: 0 auto;
+align-items: center;
+padding: 12px 28px;
+width: 138px;
+height: 47px;
+border: 1px solid #ffffff;
+background-color: transparent;
+box-sizing: border-box;
+display: block;
+color: white;
+cursor: pointer;
+}
+
+/* <!-- <--COLLECTION 2018 CONTAINER --> --> */
+
+.collection_2018-container{
+  display: flex;
+  max-width: 1920px;
+  /* height: 730px; */
+  justify-content: space-between;
+  align-items: center;
+  background: #000000;
+}
+.collection_2018-photo{
+  background-image: url(img/collection-2018.jpg);
+  background-position: center;
+  max-width: 880px;
+  width: 100%;
+height: 600px;
+}
+.collection_2018-text-container{
+  display: block;
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%;
+  height: 600px;
+  background: #000000;
+}
+.collection_2018-title{
+  /* width: 376px; */
+  height: 39px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: block;
+  margin: 100px auto 40px;
+
+
+}
+.collection_2018-hr{
+  width: 120px;
+  height: 1px;
+  color: #FFFFFF;
+  margin: 0 auto 40px;
+}
+.collection_2018-text{
+  display: block;
+  margin: 0 auto;
+  max-width: 471px;
+  height: 173px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.collection_2018-button{
+  display: block;
+padding: 12px 28px;
+
+width: 311px;
+height: 47px;
+margin: 61px auto 0;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+  cursor: pointer;
+  font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+white-space: nowrap;
+background-color: transparent;
+}
+
+/* <!-- NEW GOODS --> */
+.new_goods-container{
+  display: block;
+justify-content: center;
+/* height: 1289px; */
+background: #000000;
+}
+
+
+.new_goods-hr{
+  width: 120px;
+  height: 1px;
+  color: #FFFFFF;
+  margin: 0 auto 40px;
+}
+
+.new_goods-title{
+  /* width: 440px; */
+  height: 48px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: block;
+  margin: 0 auto 40px;
+}
+
+/* img {
+  width: 100% !important;
+} */
+
+.sim-slider {
+  max-width: 1000px;
+  min-width: 320px;
+  height: 80vw;
+  max-height: 800px;
+  margin: 20px auto;
+  padding: 30px 50px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+}
+
+/* General styles */
+.sim-slider {
+  position: relative;
+}
+
+.sim-slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+.img_slider{
+  display: block;
+  width: 100%;
+  /* or */
+  /* max-width: 100%; */
+}
+
+.sim-slider-element {
+  width: 100%;
+  /* height: 800px; */
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+  
+}
+
+div.sim-slider-arrow-left {
+  left: 10px;
+  top: 40%;
+  display: block;
+  background-color: #FFFFFF;
+  background: url(img/left-chevron.png) no-repeat;
+}
+
+div.sim-slider-arrow-right {
+  right: 0px;
+  top: 40%;
+  display: block;
+  background: url(img/double-chevron.png) no-repeat;
+}
+
+div.sim-slider-arrow-left:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+
+span.sim-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.our_brands-container{
+  background: #0F0F0F;
+  display: block;
+}
+.our_brands-title{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.our_brands-hr{
+  width: 120px;
+  margin: 20px auto;
+  margin-bottom: 70px;
+}
+.our_brands-logos{
+  max-width: 1125px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.our_brands-logos-img{
+  max-width: 365px;
+  max-height: 135px;
+  margin: 0 auto;
+}
+.footer-container{
+  background-image: url(img/footer.jpg);
+  max-width: 1920px;
+  height: 400px;
+  background-position: center;
+  display: flex;
+}
+.footer-container-inner{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1110px;
+  margin: 80px auto 0;
+}
+.about_shop{
+  display: block;
+}
+.about_shop-title{
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+.about_shop-text{
+  font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+width: 350px;
+height: 147px;
+}
+.categories{
+  display: inline-block
+}
+.categories-title{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.categories_button{
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D0D0D0;
+  background-color: #0F0F0F;
+  border: #0F0F0F;
+  padding: 10px 20px;
+  margin: 10px 10px;
+}
+
+.mailing-title{
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 40px;
+}
+.mailing-text{
+  width: 350px;
+height: 42px;
+font-family: PT Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+margin-bottom: 37px;
+}
+.mailing_input{
+  max-width: 210px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.219);
+  color: white;
+}
+.mailing_input-button{
+  padding: 10px 20px;
+  max-width: 140px;
+  height: 41px;
+  background: #0F0F0F;
+  color: white;
+  border: #0F0F0F;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1034px) {
+  .new_season{
+    display: block;
+    height: 1500px;
+  }
+
+  .new_season-container{
+    flex-direction: column;
+    
+  }
+  .watch_inner{
+   margin: 0 auto;
+  }
+
+  .watch-container{
+    /* flex-direction: column; */
+    display: block;
+  }
+  .new_collection{
+    width: 100%;
+    height: 100%;
+    display: block
+    }
+
+    .collection_2018-container{
+      flex-direction: column;
+      
+    }
+    /* .collection_2018-photo{
+      display: block;
+    } */
+    .new_goods-title{
+      font-size: 20px;
+    }
+    .our_brands-logos{
+      flex-direction: column;
+    }
+    .footer-container{
+      background-size:cover;
+      height: auto;
+    }
+    
+    .footer-container-inner{
+      flex-direction: column;
+    }
+    .ul_list{
+      display: block;
+      position: absolute;
+      top: 55px;
+      right: 0;
+      background: rgb(27, 36, 36);
+      box-shadow: #ccc;
+      width: 70%;
+      left: -100%;
+    transition: all 0.4s ease;
+    z-index: 3;
+    }
+    .ul_list-item{
+      display: block;
+    }
+    .cart{
+      display: block;
+    }
+    .ul_list li{
+      margin: 40px 0px 40px 33px;
+    font-size: 14px;
+    }
+
+    .ul_list.open-menu {
+      left: 0;
+    }
+    
+    .menu-burger__header {
+      position: relative; /* задаем относительное позиционирование */
+      width: 40px; /* определяем размеры блока */
+      height: 35px;
+      display: block;
+      margin-left: 10px;
+  }
+  .menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+}
+.menu-burger__header span{
+    top: 16px;
+}
+.menu-burger__header:after, .menu-burger__header:before{
+    content: '';
+}
+.menu-burger__header:after{
+    bottom: 5px;
+}
+.menu-burger__header:before{
+    top: 5px;
+}
+.menu-burger__header.open-menu span {
+  opacity:0; 
+  transition: 0.5s; 
+}
+.menu-burger__header.open-menu:before {
+  transform: rotate(38deg);
+  top: 16px;
+  transition: 0.4s;
+}
+.menu-burger__header.open-menu:after {
+  transform: rotate(-38deg);
+  bottom: 16px;
+  transition: 0.4s;
+}
+}
+@media (max-width: 630px) {
+  .top_line{
+    display: none;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+@font-face {
+  
+  font-family: Post No Bills Jaffna;
+  
+  src: url(fonts/PostNoBillsJaffna-Bold.ttf) format("truetype"); 
+  font-style: normal; 
+  font-weight: bold; 
+  } 
