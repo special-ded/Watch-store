@@ -544,7 +544,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 150%;
 color: #FFFFFF;
-width: 350px;
+/* width: 350px; */
 height: 147px;
 }
 .categories{
@@ -584,7 +584,7 @@ color: #FFFFFF;
 margin-bottom: 40px;
 }
 .mailing-text{
-  width: 350px;
+  /* width: 350px; */
 height: 42px;
 font-family: PT Sans;
 font-style: normal;
@@ -691,17 +691,25 @@ margin-bottom: 37px;
     }
     .ul_list-item{
       display: block;
+      height: 0px;
     }
-    .cart{
+    .cart {
+      display: block;
+    }
+    .search{
       display: block;
     }
     .ul_list li{
-      margin: 40px 0px 40px 33px;
+      margin: 40px 0px 10px 10px;
     font-size: 14px;
     }
 
     .ul_list.open-menu {
       left: 0;
+    }
+    .about_shop-text {
+      margin: 0 auto;
+      font-size: 12px;
     }
     
     .menu-burger__header {
